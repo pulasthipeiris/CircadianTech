@@ -1,0 +1,256 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+.colored-words{
+  color: #f76262;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+/* Headings */
+
+.big-heading{
+  text-align: center;
+  font-family: "Quattrocento", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 10% 0 20% 0;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #293462;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.navbar-brand{
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light",sans-serif;
+}
+
+.nav-link:hover{
+  text-decoration:;
+}
+
+/* Title */
+
+#title{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#title .container-fluid{
+  padding: 3% 15%;
+  text-align: left;
+}
+
+#title .navbar-brand{
+  color: #f76262;
+}
+
+
+/* Title Image */
+
+.title-image{
+  color: #293462;
+  width: 90%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 10%;
+}
+
+/* About */
+
+#about{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-title{
+  color: #f76262;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+/* Videos */
+
+.video{
+  padding: 5%;
+}
+
+.news-title{
+  color: #f76262;
+  font-size: 3rem;
+}
+
+#videos.colored-section{
+  background-color: #313131;
+  color: #fff;
+}
+
+#videos p{
+  font-size: 1.1rem;
+  color: #fff;
+  display: inline;
+}
+
+#videos a{
+  color: black;
+  text-decoration: none;
+}
+
+.links{
+  background-color: #fff;
+  border: 1px #fff solid;
+  border-radius: 10%;
+  padding: 3px;
+  margin: 0.5%;
+}
+
+.links:hover{
+  background-color: #fff1c1;
+  transition: 0.3s;
+}
+
+/* Profile */
+
+#profile{
+  padding: 7% 14%;
+}
+
+.profile{
+  margin-top: 6%;
+}
+
+.profile-heading{
+  color: #f76262;
+}
+
+.profile-img{
+  border-radius: 100%;
+  filter: grayscale(100%);
+  width: 70%;
+}
+
+.profile-img:hover{
+  filter: grayscale(0);
+  transition: 0.2s;
+}
+
+.profile-icon{
+  color: #293462;
+  margin: 30px 10px;
+}
+
+.profile-icon:hover{
+  color: #f76262;
+  transition: 0.1s;
+}
+
+@media (max-width: 1028px) {
+
+  #title .container-fluid{
+    text-align:center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .profile-img{
+    margin-top: 10%;
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 760px){
+
+  .profile-img{
+    margin-top: 4%;
+    width: 70%;
+  }
+
+}
+
+/* Call to Action */
+
+#cta{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cta h3{
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  padding: 4% 15%;
+}
+
+.footer-icon{
+  color: #fff;
+  margin: 30px 10px;
+}
+
+.footer-icon:hover{
+  color: #f76262;
+  transition: 0.3s;
+}
+
+#footer p{
+  font-size: 1rem;
+}
